@@ -31,7 +31,7 @@ pipeline
     }
     post
     {
-        failure
+        always
         {
            mail bcc: '', body: 'Hai', cc: '', from: '', replyTo: '', subject: 'Hai', to: 'rskumaresan2013@gmail.com'
         }
